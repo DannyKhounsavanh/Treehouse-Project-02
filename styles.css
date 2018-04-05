@@ -51,6 +51,7 @@ h2 {
 	.about-me {
 		margin-left: 1em;
 		margin-right: 1em;
+		font-size: 1em;
 	}
 
 	.portfolio {
@@ -113,6 +114,7 @@ h2 {
 
 		.about-me {
 			width: 50%;
+			font-size: 1.625em;
 		}
 
 		.portfolio {
@@ -135,7 +137,7 @@ h2 {
 
 		.contact-section {
 			clear: both;
-			padding-top: 1em;
+			margin-top: 1em;
 		}
 
 		.menu-bottom {
@@ -151,6 +153,55 @@ h2 {
 
 		.back-to-top {
 			display: none;
+		}
+	}
+
+	@media (min-width: 1024px) {
+
+		body {
+			margin: 1em 2em 2em;
+		}
+
+		.name-top {
+			float: left;
+			font-size: 1em;
+			margin-top: 1em;
+			margin-bottom: 2em;
+		}
+
+		.menu-top {
+			float: right;
+		}
+
+		.about-me {
+			float: left;
+			font-size: 1.625em;
+		}
+
+		.profile-pic {
+			clear: both;
+			width: 40%;
+		}
+
+		.project {
+			width: 33%;
+			float: left;
+		}
+
+		.project:nth-of-type(3) {
+			clear: right;
+		}
+
+		.project:nth-of-type(4) {
+			clear: left;
+		}
+
+		.contact-p {
+			font-size: 1.5em;
+		}
+
+		.menu-bottom, .name-bottom {
+			margin: 1em 0;
 		}
 	}
 }
