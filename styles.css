@@ -7,6 +7,10 @@ nav li {
 	list-style: none;
 }
 
+.portfolio-nav {
+	color: yellowgreen;
+}
+
 a {
 	text-decoration: none;
 	font-weight: bold;
