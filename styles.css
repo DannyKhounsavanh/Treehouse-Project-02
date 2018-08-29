@@ -11,6 +11,10 @@ nav li {
 	color: yellowgreen;
 }
 
+.contact-nav {
+	color: orange;
+}
+
 a {
 	text-decoration: none;
 	font-weight: bold;
