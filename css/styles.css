@@ -1,0 +1,215 @@
+body {
+	background: #f7f8f9;
+	font-family: 'Montserrat';
+}
+
+nav li {
+	list-style: none;
+}
+
+.portfolio-nav {
+	color: yellowgreen;
+}
+
+.contact-nav {
+	color: orange;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+}
+
+.phone-number, .email {
+	font-weight: bold;
+}
+
+@media (min-width: 320px) {
+
+	.menu-top {
+		margin-bottom: 2em;
+		padding: 0;
+	}
+
+	.menu-top li {
+		background: #fff;
+		margin-bottom: 6px;
+		padding: 5px;
+	}
+
+	.profile-pic {
+		width: 60%;
+	}
+
+	.about-me {
+		margin-left: 1em;
+		margin-right: 1em;
+		font-size: 1em;
+	}
+
+	.portfolio {
+		background: #fff;
+		margin: 2.5em -10px;
+		padding: 2em 0;
+	}
+
+	.portfolio h2 {
+		margin-top: 1em;
+		margin-bottom: 2.5em;
+	}
+
+	.portfolio h3 {
+		margin-bottom: 0.625em;
+	}
+
+	.portfolio p, .contact-p {
+		margin: 0 1.5em 1.5em;
+	}
+
+	img {
+		width: 90%;
+	}
+
+	.contact-heading {
+		margin-bottom: 2.5em;
+	}
+
+	.name-bottom {
+		float: left;
+	}
+
+	.back-to-top {
+		float: right;
+		font-size: 14px;
+		margin-top: 0.83em;
+		margin-bottom: 0.83em;
+	}
+
+	.name-bottom, .back-to-top {
+		font-size: 12px;
+	}
+
+	.menu-bottom {
+		display: none;
+	}
+
+	@media (min-width: 768px) {
+		.menu-top li {
+			background: #f7f8f9;
+			display: inline-block;
+		}
+
+		.profile-pic {
+			float: right;
+			width: 40%;
+			margin-bottom: 2em;
+		}
+
+		.about-me {
+			width: 50%;
+			font-size: 1.625em;
+		}
+
+		.portfolio {
+			clear: both;
+			float: right;
+		}
+
+		.portfolio .project {
+			background: #fff;
+		}
+
+		.project {
+			width: 50%;
+			float: left;
+		}
+
+		.project:nth-of-type(3) {
+			clear: both;
+		}
+
+		.contact-section {
+			clear: both;
+			margin-top: 1em;
+		}
+
+		.menu-bottom {
+			display: inline-block;
+			float: right;
+			font-size: 12px;
+		}
+
+		.menu-bottom li {
+			display: inline-block;
+			margin-left: 1em;
+		}
+
+		.back-to-top {
+			display: none;
+		}
+	}
+
+	@media (min-width: 1024px) {
+
+		body {
+			margin: 1em 2em 2em;
+		}
+
+		.name-top {
+			float: left;
+			font-size: 1em;
+			margin-top: 1em;
+			margin-bottom: 2em;
+		}
+
+		.menu-top {
+			float: right;
+		}
+
+		.about-me {
+			float: left;
+			font-size: 1.625em;
+		}
+
+		.profile-pic {
+			clear: both;
+			width: 40%;
+		}
+
+		.project {
+			width: 33%;
+			float: left;
+		}
+
+		.project:nth-of-type(3) {
+			clear: right;
+		}
+
+		.project:nth-of-type(4) {
+			clear: left;
+		}
+
+		.contact-p {
+			font-size: 1.5em;
+		}
+
+		.menu-bottom, .name-bottom {
+			margin: 1em 0;
+		}
+	}
+}
